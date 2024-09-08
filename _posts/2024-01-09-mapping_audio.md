@@ -145,7 +145,7 @@ The reasoning is that there are "way too many instances where FMOD for whatever 
 1. Drag a `Ready or Not Audio Volume` from the actor's tab into the scene.
 2. Edit the brush to cover the playable area. 
     * It is recommended to scale it just a bit over to encapsulate the some of the outside area as a safety net against players
-3. Go to `Content > FMOD > Levels > Reverbs` in the Content Browser and select the `ReverbMaster` FMOD Event and drag it into your scene.
+3. Go to `Content > FMOD > Events > Levels > Reverbs` in the Content Browser and select the `ReverbMaster` FMOD Event and drag it into your scene.
 4. **IMPORTANT**: Within the World Outliner, find this Event and drag it ONTOP of the `Ready or Not Audio Volume` to make it a child actor of it.
 5. Decide which Level's ambience is appropriate for your map and navigate to `Content > FMOD > Levels` and enter the appropriate level folder.
 6. Find the correct Ambient FMOD Event for your specific level listed here: [Reference - FMOD Parameters](){:target="_blank"} and drag it into your scene.
